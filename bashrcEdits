@@ -1,0 +1,4 @@
+alias open='nautilus'
+rsync -avL --delete /mnt/6E98FA8798FA4CD9/work/  /media/fanix/easystore/Overdrive/work
+rsync -avL --delete /mnt/6E98FA8798FA4CD9/Documents/ /media/fanix/easystore/Overdrive/Documents
+rsync -avL --exclude glove/ --delete /home/fanix/Desktop/ /media/fanix/easystore/Overdrive/Desktop
